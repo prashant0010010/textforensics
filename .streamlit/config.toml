@@ -2,7 +2,6 @@
 gatherUsageStats = false
 
 [server]
-headless = false
 maxUploadSize = 200
 
 [theme]
