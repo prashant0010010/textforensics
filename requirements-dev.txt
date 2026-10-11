@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest>=7
+scipy>=1.10      # used only by tests to cross-check skewness/kurtosis

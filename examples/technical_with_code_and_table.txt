@@ -1,0 +1,11 @@
+The scheduler maintains a priority queue of pending jobs. Each job has an identifier, a priority, and a deadline. When a worker becomes idle, the scheduler removes the job with the earliest deadline from the queue. If two jobs share a deadline, the one with the higher priority runs first. The algorithm runs in O(log n) time per operation. Memory use grows linearly with the number of pending jobs.
+
+```
+def next_job(queue):
+    return heapq.heappop(queue)
+```
+
+| field | type |
+| id | int |
+| deadline | float |
+

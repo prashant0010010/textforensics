@@ -1,0 +1,6 @@
+# CORE requirements (lightweight; everything the application needs to run without any language model)
+streamlit>=1.32,<2
+numpy>=1.24,<3
+python-docx>=1.0,<2
+pypdf>=4.0,<7
+reportlab>=4.0,<5

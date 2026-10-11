@@ -1,0 +1,8 @@
+{
+  "Green-list (KGW-style) z-test": {
+    "gamma": 0.25,
+    "tokenizer_path": "C:/models/gpt2",
+    "scheme_module": "examples/example_scheme.py",
+    "dedupe_pairs": true
+  }
+}

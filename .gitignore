@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+reports/*
+!reports/.gitkeep
+build/
+dist/
+*.spec
+*.egg-info/
+config/calibration.json.bak

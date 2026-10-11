@@ -1,0 +1,8 @@
+# OPTIONAL heavy dependencies (not needed for the core application).
+# Reference language model (Module C) and the green-list watermark tokenizer:
+torch>=2.1
+transformers>=4.38
+# Better POS tagging (Module B.8); after installing spaCy run:  python -m spacy download en_core_web_sm
+spacy>=3.7,<4
+# Alternative tagger (needs the NLTK tagger data to be downloaded separately)
+nltk>=3.8

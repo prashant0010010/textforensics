@@ -1,0 +1,7 @@
+The author begins with a claim.
+
+"This is a long block quotation that deliberately contains many words so that the detector classifies it as a quotation block rather than ordinary prose."
+
+> Another quoted passage in markdown style.
+
+She then responds to the quotation in her own words, noting that the claim is only partly supported. The second sentence adds a caveat about the data.
